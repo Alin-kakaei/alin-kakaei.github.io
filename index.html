@@ -1,0 +1,126 @@
+<!doctype html>
+<html lang="fa" dir="rtl" data-lang="fa">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f4f4f2">
+  <meta name="description" content="رزومه آلیِن کاکایی، کارآموز برنامه‌نویسی و دانشجوی ریاضیات و کاربردها">
+  <title>آلین کاکایی | رزومه</title>
+  <link rel="icon" type="image/svg+xml" href="assets/images/favicon.svg">
+  <link rel="stylesheet" href="assets/css/styles.css">
+  <script defer src="assets/js/resume-data.js"></script>
+  <script defer src="assets/js/app.js"></script>
+  <script defer src="assets/js/flashlight.js"></script>
+</head>
+<body>
+  <div class="page-shell">
+    <header class="page-toolbar">
+      <div class="toolbar-actions">
+        <button class="toolbar-button" id="language-toggle" type="button" aria-label="Switch language">EN</button>
+        <button class="toolbar-button toolbar-button-print" id="print-button" type="button">
+          <span class="button-icon" aria-hidden="true">⎙</span>
+          <span id="print-label">چاپ / ذخیره PDF</span>
+        </button>
+      </div>
+    </header>
+
+    <div class="flashlight-overlay" id="flashlight-overlay" aria-hidden="true"></div>
+
+    <main class="resume-grid" id="top">
+      <div class="resume-column profile-column" id="profile-column">
+        <section class="window-card profile-card" id="profile-card" aria-labelledby="profile-heading" data-reveal>
+          <div class="window-titlebar">
+            <span id="profile-window-title">رزومه</span>
+            <span class="window-controls" aria-hidden="true"><i></i><i></i><i></i></span>
+          </div>
+          <div class="window-rail" aria-hidden="true"></div>
+          <div class="window-content profile-content">
+            <p class="eyebrow" id="profile-eyebrow">رزومه / مشخصات</p>
+            <h1 id="profile-heading">آلین کاکایی</h1>
+            <p class="profile-role" id="profile-role">کارآموز برنامه‌نویسی</p>
+            <div class="profile-divider"></div>
+            <div class="contact-list" id="contact-list"></div>
+          </div>
+        </section>
+
+        <section class="window-card" aria-labelledby="courses-heading" data-reveal>
+          <div class="window-titlebar"><h2 id="courses-heading">دوره‌ها</h2><span class="window-controls" aria-hidden="true"><i></i><i></i><i></i></span></div>
+          <div class="window-rail" aria-hidden="true"></div>
+          <div class="window-content" id="courses-list"></div>
+        </section>
+
+        <section class="window-card" aria-labelledby="certificates-heading" data-reveal>
+          <div class="window-titlebar"><h2 id="certificates-heading">مدارک و افتخارات</h2><span class="window-controls" aria-hidden="true"><i></i><i></i><i></i></span></div>
+          <div class="window-rail" aria-hidden="true"></div>
+          <div class="window-content" id="certificates-list"></div>
+        </section>
+      </div>
+
+      <div class="resume-column main-column" id="main-column">
+        <section class="window-card" aria-labelledby="summary-heading" data-reveal>
+          <div class="window-titlebar"><h2 id="summary-heading">توضیحات</h2><span class="window-controls" aria-hidden="true"><i></i><i></i><i></i></span></div>
+          <div class="window-rail" aria-hidden="true"></div>
+          <div class="window-content"><p class="summary-text" id="summary-text"></p></div>
+        </section>
+
+        <section class="window-card" aria-labelledby="education-heading" data-reveal>
+          <div class="window-titlebar"><h2 id="education-heading">تحصیلات</h2><span class="window-controls" aria-hidden="true"><i></i><i></i><i></i></span></div>
+          <div class="window-rail" aria-hidden="true"></div>
+          <div class="window-content" id="education-list"></div>
+        </section>
+
+        <section class="window-card" aria-labelledby="languages-heading" data-reveal>
+          <div class="window-titlebar"><h2 id="languages-heading">زبان‌ها</h2><span class="window-controls" aria-hidden="true"><i></i><i></i><i></i></span></div>
+          <div class="window-rail" aria-hidden="true"></div>
+          <div class="window-content" id="languages-list"></div>
+        </section>
+
+        <section class="window-card projects-window" aria-labelledby="projects-heading" data-reveal>
+          <div class="window-titlebar"><h2 id="projects-heading">پروژه‌ها و نمونه‌کارها</h2><span class="window-controls" aria-hidden="true"><i></i><i></i><i></i></span></div>
+          <div class="window-rail" aria-hidden="true"></div>
+          <div class="window-content">
+            <div class="filter-row" id="project-filters" aria-label="Project filters"></div>
+            <div class="project-list" id="main-project-list"></div>
+          </div>
+        </section>
+      </div>
+
+      <div class="resume-column work-column" id="work-column">
+        <section class="window-card" aria-labelledby="experience-heading" data-reveal>
+          <div class="window-titlebar"><h2 id="experience-heading">سوابق کاری</h2><span class="window-controls" aria-hidden="true"><i></i><i></i><i></i></span></div>
+          <div class="window-rail" aria-hidden="true"></div>
+          <div class="window-content" id="experience-list"></div>
+        </section>
+
+        <section class="window-card skills-window" aria-labelledby="skills-heading" data-reveal>
+          <div class="window-titlebar"><h2 id="skills-heading">مهارت‌ها</h2><span class="window-controls" aria-hidden="true"><i></i><i></i><i></i></span></div>
+          <div class="window-rail" aria-hidden="true"></div>
+          <div class="window-content" id="skills-list"></div>
+        </section>
+
+        <section class="window-card" aria-labelledby="portfolio-heading" data-reveal>
+          <div class="window-titlebar"><h2 id="portfolio-heading">پروژه‌ها و نمونه‌کارها</h2><span class="window-controls" aria-hidden="true"><i></i><i></i><i></i></span></div>
+          <div class="window-rail" aria-hidden="true"></div>
+          <div class="window-content"><div class="project-list" id="portfolio-project-list"></div></div>
+        </section>
+      </div>
+    </main>
+
+    <p class="visually-hidden" id="status-message" role="status" aria-live="polite"></p>
+  </div>
+
+  <button
+    class="toolbar-button flashlight-toggle"
+    id="flashlight-toggle"
+    type="button"
+    aria-controls="flashlight-overlay"
+    aria-pressed="false"
+    data-fa-off="چراغ خاموش"
+    data-fa-on="چراغ روشن"
+    data-en-off="lights out"
+    data-en-on="lights on"
+  >چراغ خاموش</button>
+
+  <div class="print-document" id="print-resume" aria-hidden="true"></div>
+</body>
+</html>
