@@ -129,7 +129,7 @@ window.RESUME_DATA = {
       date: { fa: "اردیبهشت 1405", en: "September 2026" },
       description: {
         fa: "پروژه یاد گیری ماشین برای استخراج اخبار، تبدیل به بردار، آموزش به LSTM و back testing که هنوز در حال انجام است و نیاز به تغییراتی دارد. ",
-        en: "The focus on the project was to make trading decisions trained on previous gold price candle stick diagram and news. The idea was to scrape the internet, train the LSTM mode, do backtesting and make trading automatic. This project is still undergoing some changes."
+        en: "The focus on the project was to make trading decisions trained on previous gold price candle stick diagram and news. The idea was to scrape the internet, train the LSTM model, do backtesting and make trading automatic. This project is still undergoing some changes."
       },
       tags: ["Machine learning", "Python", "Torch", "LSTM"]
     },
