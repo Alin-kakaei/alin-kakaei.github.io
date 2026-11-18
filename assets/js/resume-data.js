@@ -24,6 +24,14 @@ window.RESUME_DATA = {
       }
     },
     {
+      title: { fa: "مدرس زبان انگلیسی", en: "English Language Teacher" },
+      organization: { fa: "موسسه زبان استیچ", en: "Stitch English Language Institute" },
+      description: {
+        fa: "مدرس زبان انگلیسی برای کودکان در سطوح متخلف از مبتدی تا پیشرفته",
+        en: "English language teacher for children at different levels from beginner to advanced"
+      }
+    },
+    {
       title: { fa: "کارآموز برنامه‌نویسی", en: "Programming Intern" },
       organization: { fa: "پگاه جهانما", en: "Pegah Jahan Nama" },
       description: {
