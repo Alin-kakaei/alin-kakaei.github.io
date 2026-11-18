@@ -4,7 +4,7 @@ window.RESUME_DATA = {
   defaultLanguage: "fa",
   personal: {
     name: { fa: "آلین کاکائی", en: "Alin Kakaei" },
-    role: { fa: "کارآموز برنامه‌نویسی", en: "Programming Intern" },
+    // role: { fa: "کارآموز برنامه‌نویسی", en: "Programming Intern" },
     email: "alinkakaei@gmail.com",
     phone: "+989351839215",
     phoneDisplay: { fa: "+98 935 183 9215", en: "+98 935 183 9215" },
