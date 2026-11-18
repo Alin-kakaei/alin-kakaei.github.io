@@ -59,7 +59,8 @@ window.RESUME_DATA = {
     }
   ],
   languages: [
-    { name: { fa: "انگلیسی", en: "English" }, level: { fa: "پیشرفته", en: "Advanced" } }
+    { name: { fa: "انگلیسی", en: "English" }, level: { fa: "پیشرفته", en: "Advanced" } },
+    { name: { fa: "ژاپنی", en: "Japanese" }, level: { fa: "بسیار مبتدی", en: "Beginner" } }
   ],
   skills: [
     {
