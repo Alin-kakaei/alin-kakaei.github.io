@@ -1,7 +1,7 @@
 /* ============================== Resume content ============================== */
 
 window.RESUME_DATA = {
-  defaultLanguage: "fa",
+  defaultLanguage: "en",
   personal: {
     name: { fa: "آلین کاکائی", en: "Alin Kakaei" },
     // role: { fa: "کارآموز برنامه‌نویسی", en: "Programming Intern" },
