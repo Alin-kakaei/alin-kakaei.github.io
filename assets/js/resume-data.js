@@ -12,7 +12,7 @@ window.RESUME_DATA = {
   },
   summary: {
     fa: "به دنبال یادگیری، تقویت و محک زدن مهارت‌های برنامه‌نویسی و تحقیقاتی از طریق انجام پروژه و در کنار ادامه تحصیلات دانشگاهی هستم. علاقه مند به یادگیری در حوزه های یادگیری ماشین، تحلیل داده، ریاضی مهندسی و چنین موضوعات میان رشته ای کامپیوتر و ریاضی هستم. از مهارت‌های نرم مانند صبوری، مدیریت زمان و مسئولیت‌پذیری برخوردارم و برای یادگیری مهارت‌های جدید اشتیاق دارم.",
-    en: "I am looking to learn, strengthen, and challenge my programming and research skills through hands-on projects while continuing my university studies. Especially interested in fields such as machine learning, data analysis, industrial math projects and other mathematical and computational fields. I am patient, decent at managing time, quit responsible, and very eager to learn new skills."
+    en: "I am looking to learn, strengthen, and challenge my programming and research skills through hands-on projects while continuing my university studies. Especially interested in fields such as machine learning, data analysis, industrial math projects and other mathematical and computational fields. I am patient, decent at managing time, quite responsible, and very eager to learn new skills."
   },
   experience: [
     {
@@ -20,7 +20,7 @@ window.RESUME_DATA = {
       organization: { fa: "مرکز نوآوری پژوهشگاه نفت", en: "Research Institute of Petroleum Industry" },
       description: {
         fa: "کارآموز برنامه نویسی و تحقیقات برای پروژه های ریاضی مهندسی، یادگیری ماشین، شیوه های تحلیل داده های ریاضی ",
-        en: "Programming and research intern for industrical mathematical engineering, machine learning and analysing mathematical data projects"
+        en: "Programming and research intern for industrial mathematical engineering, machine learning and analysing mathematical data projects"
       }
     },
     {
@@ -128,8 +128,8 @@ window.RESUME_DATA = {
       title: { fa: "خرید و فروش طلا", en: "Golden Trade" },
       date: { fa: "اردیبهشت 1405", en: "September 2026" },
       description: {
-        fa: "پروژه یاد گیری ماشین برای استخراج اخبار، تبدیل به بردار، آموزش به lstm و back testing که هنوز در حال انجام است و نیاز به تغییراتی دارد. ",
-        en: "The focus on the project was to make trading decisions trained on previous gold price candle stick diagram and news. The idea was to scrape the internet, train the lstm mode, do backtesting and make trading automatic. This project is still undergoing some changes."
+        fa: "پروژه یاد گیری ماشین برای استخراج اخبار، تبدیل به بردار، آموزش به LSTM و back testing که هنوز در حال انجام است و نیاز به تغییراتی دارد. ",
+        en: "The focus on the project was to make trading decisions trained on previous gold price candle stick diagram and news. The idea was to scrape the internet, train the LSTM mode, do backtesting and make trading automatic. This project is still undergoing some changes."
       },
       tags: ["Machine learning", "Python", "Torch", "LSTM"]
     },
@@ -141,7 +141,7 @@ window.RESUME_DATA = {
       date: { fa: "آبان 1406", en: "November 2026" },
       description: {
         fa: "وب‌سایت رزومه‌ای با HTML/CSS و JavaScript؛ در طراحی آن، حرکت نشانگر ماوس مانند چراغ‌قوه در یک صفحه تاریک عمل می‌کند. این رزومه از طریق هاست گیت هاب در دسترس است.",
-        en: "A resume website built with HTML, CSS, and JavaScript. The mouse cursor acts like a flashlight across a dark page. The project is accessable on github web hosting"
+        en: "A resume website built with HTML, CSS, and JavaScript. The mouse cursor acts like a flashlight across a dark page. The project is accessible on github web hosting"
       },
       tags: ["HTML/CSS", "JavaScript", "Interaction"]
     },
