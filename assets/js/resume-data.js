@@ -11,23 +11,23 @@ window.RESUME_DATA = {
     github: "https://github.com/Alin-kakaei"
   },
   summary: {
-    fa: "به دنبال یادگیری، تقویت و محک زدن مهارت‌های برنامه‌نویسی و تحقیقاتی از طریق انجام پروژه و در کنار ادامه تحصیلات دانشگاهی هستم. علاقه مند به یادگیری در حوزه های یادگیری ماشین، تحلیل داده، ریاضی مهندسی و چنین موضوعات میان رشته ای کامپیوتر و ریاضی هستم. از مهارت‌های نرم مانند صبوری، مدیریت زمان و مسئولیت‌پذیری برخوردارم و برای یادگیری مهارت‌های جدید اشتیاق دارم.",
-    en: "I am looking to learn, strengthen, and challenge my programming and research skills through hands-on projects while continuing my university studies. Especially interested in fields such as machine learning, data analysis, industrial math projects and other mathematical and computational fields. I am patient, decent at managing time, quite responsible, and very eager to learn new skills."
+    fa: "به دنبال یادگیری، تقویت و محک زدن مهارت‌های برنامه‌نویسی و تحقیقاتی از طریق انجام پروژه و در کنار ادامه تحصیلات دانشگاهی هستم. علاقه‌مند به یادگیری و پژوهش در حوزه‌های یادگیری ماشین، تحلیل داده، مدل‌سازی ریاضی، ریاضی مهندسی و موضوعات میان‌رشته‌ای کامپیوتر و ریاضی هستم. از مهارت‌های نرم مانند صبوری، مدیریت زمان و مسئولیت‌پذیری برخوردارم و برای یادگیری مهارت‌های جدید اشتیاق دارم.",
+    en: "I am looking to learn, strengthen, and challenge my programming and research skills through hands-on projects while continuing my university studies. Especially interested in machine learning, data analysis, mathematical modeling, industrial math projects, and other interdisciplinary mathematical and computational fields. I am patient, decent at managing time, quite responsible, and very eager to learn new skills."
   },
   experience: [
     {
       title: { fa: "کارآموز برنامه‌نویسی و تحقیقات", en: "Programming And Research Intern" },
       organization: { fa: "مرکز نوآوری پژوهشگاه نفت", en: "Research Institute of Petroleum Industry" },
       description: {
-        fa: "کارآموز برنامه نویسی و تحقیقات برای پروژه های ریاضی مهندسی، یادگیری ماشین، شیوه های تحلیل داده های ریاضی ",
-        en: "Programming and research intern for industrial mathematical engineering, machine learning and analysing mathematical data projects"
+        fa: "کارآموز برنامه‌نویسی و تحقیقات در پروژه‌های ریاضی مهندسی، یادگیری ماشین و تحلیل داده‌های علمی؛ شامل توسعه حل‌گر نمادین و عددی معادلات مبتنی بر گراف وابستگی، پژوهش پیرامون تحلیل داده‌های کمومتریکس و همکاری در بخش هوش مصنوعی و ریاضیات پروژه مصوب دوقلوی دیجیتال (LLM مبتنی بر RAG و فرمولاسیون، TTS احساسی و توسعه فول‌استک).",
+        en: "Programming and research intern for industrial mathematical engineering, machine learning, and scientific data analysis projects—including developing a dependency-graph equation solver, researching chemometrics data correlation methods, and contributing to the AI and Mathematics division of an approved Digital Twin project (RAG-based LLM formulation, expressive TTS, and full-stack development)."
       }
     },
     {
       title: { fa: "مدرس زبان انگلیسی", en: "English Language Teacher" },
       organization: { fa: "موسسه زبان استیچ", en: "Stitch English Language Institute" },
       description: {
-        fa: "مدرس زبان انگلیسی برای کودکان در سطوح متخلف از مبتدی تا پیشرفته",
+        fa: "مدرس زبان انگلیسی برای کودکان در سطوح مختلف از مبتدی تا پیشرفته",
         en: "English language teacher for children at different levels from beginner to advanced"
       }
     },
@@ -73,7 +73,7 @@ window.RESUME_DATA = {
   skills: [
     {
       title: { fa: "زبان‌های برنامه‌نویسی", en: "Programming Languages" },
-      items: ["Java", "Python", "C++", "SQL", "Git", "HTML/CSS", "JavaScript", "Pygame", "Pandas", "Scipy", "Sympy", "PyQt"]
+      items: ["Java", "Python", "C++", "SQL", "Git", "HTML/CSS", "JavaScript", "NumPy", "Pandas", "SciPy", "SymPy", "PyTorch", "PyQt", "Pygame"]
     },
     {
       title: { fa: "نرم‌افزارها و مهارت‌ها", en: "Tools and Technical Skills" },
@@ -81,6 +81,54 @@ window.RESUME_DATA = {
     }
   ],
   projects: [
+    {
+      id: "dependency-graph-solver",
+      group: "main",
+      categories: ["math-research", "software"],
+      title: { fa: "حل‌گر معادلات با گراف وابستگی", en: "Dependency Graph Equation Solver" },
+      date: { fa: "۱۴۰۵", en: "2026" },
+      description: {
+        fa: "یک نرم‌افزار دسکتاپ به زبان Python با استفاده از PyQt، NumPy، SciPy و SymPy که ورودی‌های ضروری و اختیاری را دریافت کرده، تداخل میان آن‌ها را شناسایی می‌کند، ترتیب صحیح حل دستگاه معادلات را از طریق گراف وابستگی می‌یابد و در صورت نبود پاسخ حقیقی دقیق، تقریب کمترین مربعات (Least Squares) را محاسبه و نمایش می‌دهد.",
+        en: "A Python desktop application built with PyQt, NumPy, SciPy, and SymPy that accepts required and optional inputs, detects conflicting constraints, determines the proper solving order of equation systems via a dependency graph, and computes least-squares approximations whenever exact real solutions do not exist."
+      },
+      tags: ["Python", "PyQt", "NumPy", "SciPy", "SymPy", "Symbolic Math"]
+    },
+    {
+      id: "digital-twin",
+      group: "main",
+      categories: ["math-research", "machine-learning", "web"],
+      title: { fa: "پروژه دوقلوی دیجیتال (بخش هوش مصنوعی و ریاضیات)", en: "Digital Twin System (AI & Mathematics)" },
+      date: { fa: "مصوب · در شرف آغاز", en: "Approved · Upcoming" },
+      description: {
+        fa: "پروژه مصوب و در شرف آغاز در دپارتمان هوش مصنوعی و ریاضیات، با تمرکز بر مدل‌سازی ریاضی و هوش مصنوعی؛ به‌ویژه پیاده‌سازی مدل زبانی بزرگ (LLM) مبتنی بر RAG و فرمولاسیون، مدل تبدیل متن به گفتار (TTS) با قابلیت انتقال احساسات، و توسعه بک‌اند و فرانت‌اند.",
+        en: "An approved upcoming project in the AI and Mathematics division, focusing on mathematical and AI modeling—specifically Large Language Models (LLM) with RAG and formulation, emotion-aware Text-to-Speech (TTS) synthesis, and full-stack (back-end and front-end) development."
+      },
+      tags: ["LLM", "RAG", "TTS", "Mathematical Modeling", "Full Stack"]
+    },
+    {
+      id: "chemometrics-correlation",
+      group: "main",
+      categories: ["math-research", "machine-learning"],
+      title: { fa: "پژوهش همبستگی گراف‌های کمومتریکس", en: "Chemometrics Graph Correlation Study" },
+      date: { fa: "در حال پژوهش", en: "Ongoing Study" },
+      description: {
+        fa: "مطالعه و گردآوری گروهی (به‌همراه دو همکار) پیرامون روش‌های ریاضی و یادگیری ماشین برای ایجاد همبستگی و تحلیل گراف‌ها و داده‌های کمومتریکس (در مرحله بررسی منابع و روش‌شناسی).",
+        en: "Collaborative preliminary investigation with two peers surveying mathematical and machine learning methods for correlating and analyzing chemometrics graphs (currently in the literature and methodology review phase)."
+      },
+      tags: ["Chemometrics", "Graph Analysis", "Machine Learning", "Applied Math"]
+    },
+    {
+      id: "golden-trade",
+      group: "portfolio",
+      categories: ["machine-learning", "math-research"],
+      title: { fa: "خرید و فروش طلا و توسعه کوانتومی", en: "Golden Trade & Quantum ML Exploration" },
+      date: { fa: "شهریور ۱۴۰۵", en: "September 2026" },
+      description: {
+        fa: "پروژه یادگیری ماشین برای تصمیم‌گیری معاملاتی با استخراج اخبار مالی و داده‌های کندل‌استیک طلا، آموزش مدل LSTM با PyTorch و انجام بک‌تست. همچنین در حال مطالعه مبانی رایانش کوانتومی و الگوریتم‌های پایه کوانتومی به منظور بررسی امکان توسعه کوانتومی این مدل در آینده.",
+        en: "A machine learning trading system trained on historical gold candlestick data and scraped financial news using PyTorch LSTM models and backtesting. Currently studying quantum computing fundamentals and basic quantum algorithms with plans to explore quantum-enhanced extensions for the model."
+      },
+      tags: ["Machine Learning", "Python", "PyTorch", "LSTM", "Quantum Computing"]
+    },
     {
       id: "8ball",
       group: "main",
@@ -122,24 +170,12 @@ window.RESUME_DATA = {
       group: "main",
       categories: ["java", "games"],
       title: { fa: "پروژه بازی HexGate", en: "HexGate Game" },
-      date: { fa: "اردیبهشت 1405", en: "September 2026" },
+      date: { fa: "شهریور 1405", en: "September 2026" },
       description: {
         fa: "ساخت یک بازی استراتژیک با Java Swing، الهام‌گرفته از Hexlands. بازیکن می‌تواند خانه‌های شش‌ضلعی جدید را کشف کند و با استفاده از نقش‌های مختلف، از جمله Builder، شهر بسازد و برای بقای شهروندان تلاش کند.",
         en: "A strategic game built with Java Swing and inspired by Hexlands. Players explore new hexes and use different roles, including Builder, to build a city and manage the survival of its citizens."
       },
       tags: ["Java", "Swing", "Strategy Game"]
-    },
-    {
-      id: "golden-trade",
-      group: "portfolio",
-      categories: ["machine-learning"],
-      title: { fa: "خرید و فروش طلا", en: "Golden Trade" },
-      date: { fa: "اردیبهشت 1405", en: "September 2026" },
-      description: {
-        fa: "پروژه یاد گیری ماشین برای استخراج اخبار، تبدیل به بردار، آموزش به LSTM و back testing که هنوز در حال انجام است و نیاز به تغییراتی دارد. ",
-        en: "The focus on the project was to make trading decisions trained on previous gold price candle stick diagram and news. The idea was to scrape the internet, train the LSTM model, do backtesting and make trading automatic. This project is still undergoing some changes."
-      },
-      tags: ["Machine learning", "Python", "Torch", "LSTM"]
     },
     {
       id: "flashlight-resume",
@@ -149,7 +185,7 @@ window.RESUME_DATA = {
       date: { fa: "آبان 1406", en: "November 2026" },
       description: {
         fa: "وب‌سایت رزومه‌ای با HTML/CSS و JavaScript؛ در طراحی آن، حرکت نشانگر ماوس مانند چراغ‌قوه در یک صفحه تاریک عمل می‌کند. این رزومه از طریق هاست گیت هاب در دسترس است.",
-        en: "A resume website built with HTML, CSS, and JavaScript. The mouse cursor acts like a flashlight across a dark page. The project is accessible on github web hosting"
+        en: "A resume website built with HTML, CSS, and JavaScript. The mouse cursor acts like a flashlight across a dark page. The project is accessible on github web hosting."
       },
       tags: ["HTML/CSS", "JavaScript", "Interaction"]
     },
@@ -174,17 +210,18 @@ window.RESUME_DATA = {
       description: { fa: "مسابقات بین‌المللی RoboCup IranOpen 2023 · لیدر گروه", en: "RoboCup IranOpen 2023 International Competitions · Team Leader" }
     },
     {
-      title: { fa: "گواهی شرکت در مسابقات Iran Open 2023", en: "Certificate of Participation · Iran Open 2023" },
+      title: { fa: "گواهی شرکت در مسابقات Iran Open 2024", en: "Certificate of Participation · Iran Open 2024" },
       description: { fa: "مسابقات بین‌المللی RoboCup IranOpen 2024 · لیدر گروه", en: "RoboCup IranOpen 2024 International Competitions · Team Leader" }
     }
   ],
   filters: [
     { id: "all", label: { fa: "همه", en: "All" } },
+    { id: "math-research", label: { fa: "ریاضی و پژوهش", en: "Math & Research" } },
+    { id: "machine-learning", label: { fa: "یادگیری ماشین", en: "Machine Learning" } },
+    { id: "software", label: { fa: "نرم‌افزار", en: "Software" } },
     { id: "java", label: { fa: "Java", en: "Java" } },
     { id: "games", label: { fa: "بازی‌ها", en: "Games" } },
-    { id: "software", label: { fa: "نرم‌افزار", en: "Software" } },
-    { id: "web", label: { fa: "وب", en: "Web" } },
-    { id: "machine-learning", label: { fa: "یادگیری ماشین", en: "Machine Learning" } }
+    { id: "web", label: { fa: "وب", en: "Web" } }
   ],
   ui: {
     title: { fa: "رزومه", en: "Resume" },
