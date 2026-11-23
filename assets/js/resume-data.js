@@ -68,7 +68,7 @@ window.RESUME_DATA = {
   ],
   languages: [
     { name: { fa: "انگلیسی", en: "English" }, level: { fa: "پیشرفته", en: "Advanced" } },
-    { name: { fa: "ژاپنی", en: "Japanese" }, level: { fa: "بسیار مبتدی", en: "Beginner" } }
+    // { name: { fa: "ژاپنی", en: "Japanese" }, level: { fa: "بسیار مبتدی", en: "Beginner" } }
   ],
   skills: [
     {
@@ -187,6 +187,8 @@ window.RESUME_DATA = {
         fa: "وب‌سایت رزومه‌ای با HTML/CSS و JavaScript؛ در طراحی آن، حرکت نشانگر ماوس مانند چراغ‌قوه در یک صفحه تاریک عمل می‌کند. این رزومه از طریق هاست گیت هاب در دسترس است.",
         en: "A resume website built with HTML, CSS, and JavaScript. The mouse cursor acts like a flashlight across a dark page. The project is accessible on github web hosting."
       },
+      link: "https://alin-kakaei.github.io/",
+      linkLabel: { fa: "لینک رزومه", en: "Resume Link" },
       tags: ["HTML/CSS", "JavaScript", "Interaction"]
     },
     {
